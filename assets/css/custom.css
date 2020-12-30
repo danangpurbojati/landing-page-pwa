@@ -1,0 +1,245 @@
+/* NAVIGATION */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* opacity: .8; */
+}
+
+.brand-logo img{
+    margin-top: 10px;
+    height: 40px;
+}
+/* END OF NAVIGATION */
+
+
+/* HOME HERO */
+.hero{
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/background-hero.png');
+}
+
+.hero-text{
+    height: 550px;
+}
+
+.stripped-border{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .6rem;
+    border: 3px dashed #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.main-text{
+    margin: 0;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3d2514;
+    text-shadow: 2px 3px 0px #fff;
+}
+
+.secondary-text{
+    margin: 0;
+    color: #3d2514;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 0px #fff;
+}
+
+.hero-img{
+    height: 550px;
+}
+
+.hero-img img{
+    width: 500px;
+}
+
+.hero-links{
+    margin-top: 15px;
+}
+
+.user-red{
+    background-color: #bf2222;
+    font-weight: bold;
+}
+
+.user-red:hover{
+    background-color: rgba(191, 34, 34, .8);
+}
+.user-brown{
+    border: 1px solid #3d2514;
+    background-color: transparent;
+    color: #3d2514;
+    font-weight: bold;
+}
+
+.user-brown:hover{
+    background-color: #3d2514;
+    color: white;
+}
+/* END OF HOME HERO */
+
+
+
+
+/* ABOUT PAGE */
+.about-content{
+    padding-top: 30px;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-text{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.about-text h4{
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.about-text h2{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+/* END ABOUT PAGE */
+
+
+
+/* MENU PAGE */
+.user-img{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.submenu-text{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #3d2514;
+}
+.submenu-title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.card-content{
+    height: 200px;
+}
+
+.card .card-content p {
+    margin-top: 15px;
+}
+
+.menu-title{
+    font-weight: bold;
+    color: #3d2514;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+/* END MENU PAGE */
+
+
+
+/* RESERVATION PAGE */
+.reservation{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/form-background_02.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.user-form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.full-btn{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+/* END RESERVATION PAGE */
+
+
+
+/* FOOTER */
+footer{
+    background-image: url('../images/footer-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* END OF FOOTER */
+
+.copyright{
+    color: white;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1000px) {
+    .hero{
+        padding-top: 50px;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-text{
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero-img{
+        height: auto;
+        justify-content: center;
+    }
+    .hero-img img{
+        width: 350px;
+    }
+    
+    .user-img{
+        height: 400px;
+    }
+    .card-content{
+        height: 150px;
+    }
+
+    .reservation{
+        background-image: none;
+        height: auto;
+    }
+
+    footer img{
+        width: 250px;
+    }
+}
+
